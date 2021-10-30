@@ -39,4 +39,4 @@ void CRational::reduction(){
 			m_denominator=m_denominator/i;
 		}
 	}
-} //for checking git pull
+} 
