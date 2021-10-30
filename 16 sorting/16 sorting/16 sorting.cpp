@@ -10,10 +10,11 @@ void swapfunction1(int *a,int *b){
 }
 
 int main() {
-	int random[100];
+	vector<int> random;
 	int N,i=0;
 	cout << "Enter a number from 2 to 100\n";
 	cin >> N;
+	random.resize(N);
 	if (N>100 || N<=1) {
 		cout << "Error, enter a number from 2 to 100\n";
 		cin >> N;
