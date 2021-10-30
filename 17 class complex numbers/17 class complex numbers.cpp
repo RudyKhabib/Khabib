@@ -17,6 +17,6 @@ int main(){
 	sumnumb.output();
 	multiplicationnumb.output();
 	return 0;
-}
+ }
 
 
